@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;  
+
+}
+.header{
+    min-height: 100vh;
+    width:100%;
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    }
+    .top{
+        background-color: black;
+        color:#fff; 
+        padding:1px;
+        display:flex;
+     height: 20;
+    }
+
+.top  img{
+   
+    width:160px;
+    padding:1px;
+    border:3px solid;
+    transition: 0.5s;
+    border: 3px solid black;
+    transition-property: all;
+} 
+.top img:hover{
+    border: 3px solid #6C63FF;
+
+}
+
+.nav1 ul li :hover{
+ color: #6C63FF;
+ font-weight: 900;
+}
+ .nav2{
+    flex:1;
+    text-align: right;
+    background:black;
+    }
+    .nav2 ul li {
+        list-style: none;
+        display: inline-block;
+    padding: 18px 12px;
+    position: relative;
+    }
+    .nav2 ul li a{
+        color:#fff;
+        text-decoration: none;text-align: justify;
+        font-size: 18px;    font-family: 'Quicksand', sans-serif;
+             
+    }
+    .nav2 ul li :hover{
+        color: #6C63FF;
+        font-weight: 700;
+       }
+
+    
+     /* Clock START */
+     .datetime{
+        font-size: 8px;    
+        font-family: 'Quicksand', sans-serif;
+        width:160x;
+        padding:2px 4px;
+        border:3px solid;
+        border-radius: 5px;
+        transition: 0.2s;
+        border: 3px solid black;
+        transition-property: all;
+         
+        
+    }
+   
+    .date{
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .time{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .time span:not(:last-child){
+        position: relative;
+        margin:0 1px;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .time span:last-child{
+        background:#6C63FF;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 10px;
+        padding: 0 5px;
+        border-radius: 3px;
+
+    }
+    /* Clock END */
+    .blank{
+        height: 5px;background: #6C63FF;
+    }

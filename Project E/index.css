@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;  
+
+}
+
+.header{
+    min-height: 100vh;
+    width:100%;
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    }
+    .top{
+        background-color: #fff;
+        color:black;
+        padding:1px;
+        display:flex;
+     height: 20;
+    }
+
+.top  img{
+   
+    width:160px;
+    padding:1px;
+    transition: 0.5s;
+    border: 1px solid #fff;
+    transition-property: all;
+} 
+.top img:hover{
+   
+  background: #6C63FF;
+}
+
+
+ .nav2{
+    flex:1;
+    text-align: right;
+    background:#fff;
+    }
+    .nav2 ul li {
+        list-style: none;
+        display: inline-block;
+    padding: 18px 12px;
+    position: relative;
+    }
+    .nav2 ul li a{
+        color:black;
+        text-decoration: none;text-align: justify;
+        font-size: 18px;    font-family: 'Quicksand', sans-serif;
+             
+    }
+    .nav2 ul li :hover{
+        color: #6C63FF;font-weight: bolder;
+       
+       }
+       *::selection
+       {
+           background:#6C63FF;
+           color:#fff;
+       }
+        
+
+    
+     /* Clock START */
+     .datetime{
+        font-size: 8px;    
+        font-family: 'Quicksand', sans-serif;
+        width:160x;
+        padding:2px 4px;
+        border:3px solid;
+        border-radius: 5px;
+        transition: 0.2s;
+        border: 3px solid #fff;
+        transition-property: all;
+         
+        
+    }
+   
+    .date{
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .time{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .time span:not(:last-child){
+        position: relative;
+        margin:0 1px;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .time span:last-child{
+        background:#6C63FF;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 10px;
+        padding: 0 5px;
+        border-radius: 3px;
+
+    }
+    /* Clock END */
+    
+
+    /* <!-- BODY OF THE SITE - START--> */
+
+    .portfolio-items-wrapper {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+      }
+      
+      .portfolio-item-wrapper {
+        position: relative;
+      }
+      
+      .portfolio-img-background {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 350px;
+        width: 100%;
+      }
+      
+      .img-text-wrapper {
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;   font-family: 'Quicksand', sans-serif;
+      }
+     .img-text-wrapper:hover{background:rgba(142, 192, 207, 0.151);transition: 0.5s;}
+      .img-text-wrapper .subtitle {
+        transition: 0.5s;
+        color: black;
+        font-weight: 600;   font-family: 'Quicksand', sans-serif;font-size: large;text-decoration: none;
+      } .temp a {text-decoration: none;}
+      
+      .image-blur {
+        transition: 0.5s;
+        filter: brightness( 10%);   
+      }
+      
+      .img-text-wrapper:hover .subtitle {
+        color: #6C63FF;
+        font-weight: 600;   font-family: 'Quicksand', sans-serif;font-size: large;transition: 0.5s;
+      }
+ 
+      .logo-wrapper img {
+        width: 50%;color: transparent;
+        margin-bottom: 20px;   font-family: 'Quicksand', sans-serif;
+      }
+      
+      .two-column-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;   font-family: 'Quicksand', sans-serif;
+      }
+      
+      .profile-image-wrapper img {
+        width: 100%;   font-family: 'Quicksand', sans-serif;
+      }
+      
+      .profile-content-wrapper {
+        padding: 30px;   font-family: 'Quicksand', sans-serif;
+      }
+      
+      .profile-content-wrapper h1 {
+        color: #6C63FF;   font-family: 'Quicksand', sans-serif;
+      }
+    /* <!-- BODY OF THE SITE - END--> */
+ 
+
+.img-text-wrapper:hover .subtitle span {
+    color: black;
+    transition: 0.5s;font-weight: 600;
+  }
+ .blank{
+   border:1px solid #6C63FF;
+ }
+
+ .footer_1{
+   background: #6C63FF;
+   height: 100px;
+ }
